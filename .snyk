@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - crawly-mccrawlface > @google-cloud/translate > @google-cloud/common > retry-request > request > hawk > hoek:
+        patched: '2018-06-19T04:51:18.402Z'
+    - crawly-mccrawlface > @google-cloud/translate > @google-cloud/common > retry-request > request > hawk > boom > hoek:
+        patched: '2018-06-19T04:51:18.402Z'
+    - crawly-mccrawlface > @google-cloud/translate > @google-cloud/common > retry-request > request > hawk > sntp > hoek:
+        patched: '2018-06-19T04:51:18.402Z'
+    - crawly-mccrawlface > @google-cloud/translate > @google-cloud/common > retry-request > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-19T04:51:18.402Z'
